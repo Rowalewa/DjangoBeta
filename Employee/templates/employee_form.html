@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'bootstrap-5.3.2-dist/css/bootstrap.min.css' %}">
+</head>
+<body>
+<h1 class="text-primary text-md-center">THIS IS MY EMPLOYEES FORM</h1>
+<div class="emp_form">
+<form action="" method="POST" class="employee_frm">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save</button>
+</form>
+</div>
+{% if messages %}
+    {% for message in messages %}
+    <h1>{{ message }}</h1>
+    {% endfor %}
+{% endif %}
+</body>
+</html>
