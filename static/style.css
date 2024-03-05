@@ -22,3 +22,25 @@
     width: 40%;
     border-radius: 10px;
 }
+.tabs{
+    padding: 190px;
+    background-image: url("images/website_employees_bckg.jpg");
+    background-position: center;
+}
+.emp_list_table thead tr td{
+    color: cyan;
+    border: solid 4px greenyellow;
+}
+.emp_list_table tbody tr td{
+    color: white;
+    border: solid 4px yellow;
+    font-family: cursive;
+    font-size: 30px;
+}
+.emp_list_table button{
+    background-color: deeppink;
+    box-shadow: 2px 2px sandybrown;
+    border-radius: 20px;
+    font-family: sans-serif;
+    padding: 7px;
+}
