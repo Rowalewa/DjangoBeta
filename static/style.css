@@ -6,10 +6,12 @@
     border-radius: 10px;
 }
 .employee_frm input{
-    background-color: mintcream;
+    background-color: transparent;
     width: 100%;
     box-shadow: 10px 10px blue;
     border-radius: 20px;
+    border: none;
+    outline: none;
 }
 .emp_form{
     background-color: #2b2f32;
@@ -17,14 +19,14 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.employee_frm button{
+.employee_frm .emp_list_table button{
     background-color: green;
     width: 40%;
     border-radius: 10px;
 }
 .tabs{
     padding: 190px;
-    background-image: url("images/website_employees_bckg.jpg");
+    background-image: url("images/ski.jpeg");
     background-position: center;
 }
 .emp_list_table thead tr td{
